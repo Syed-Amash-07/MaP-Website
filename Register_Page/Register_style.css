@@ -134,3 +134,27 @@ input[type=submit]:hover{
   }
   
   /* scroll bar */
+
+  *{
+    margin: 0%;
+}
+
+.pic {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .pic img {
+    display: block;
+    width: 700px;
+    height: 780px;
+  }
+  
+  .overlay-text {
+    
+    position: absolute;
+   top: 50%;left: 50%;
+    transform: translate(-99%, -111%); 
+    color: rgb(22, 19, 19); 
+    font-size: 80px;
+font-weight: bolder; }
